@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.633">
+    <testcase classname="Search functionality" name="Use search to find blog articles" time="12.464">
+        <system-out>
+            <![CDATA[Given I navigate to CIIT homepage...........................................passed
+Then I should see the company logo..........................................passed
+When I switch to the blog page..............................................passed
+And scroll to the search field..............................................passed
+And I click the search input field..........................................passed
+And the field gains focus...................................................passed
+When I type in java.........................................................passed
+And the live search list appears............................................passed
+And I confirm my search via pressing the enter key..........................passed
+Then I will be redirected to a new page.....................................passed
+And the results will be listed..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
